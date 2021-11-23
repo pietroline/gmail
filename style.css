@@ -61,3 +61,15 @@ input{
     content: '\2605'
 }
 
+footer{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer span{
+    font-size: 15px;
+    font-style: italic;
+}
+
