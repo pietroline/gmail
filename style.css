@@ -36,3 +36,28 @@ input{
     text-align: center;
     vertical-align: middle;
 }
+
+.email_row.read{
+    background-color: rgb(180, 180, 180);
+}
+
+.email_row.unread{
+    background-color: white;
+}
+.email_row{
+    padding: 2px;
+    border: solid 1px #000000;
+}
+
+.email_text:before{
+    content: ' - ';
+}
+
+.email_text:after{
+    color: grey;
+}
+
+.star:after{
+    content: '\2605'
+}
+
