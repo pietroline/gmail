@@ -1,0 +1,38 @@
+body{
+    width: 50%;
+    margin: auto;
+    background-image: url("https://www.appartamenti-lathuile.com/wp-content/uploads/2016/05/sfondo-legno.jpg");
+}
+
+#logo{
+    width: 100px;
+    vertical-align: middle;
+}
+
+#logo_text{
+    color: #ffffff;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+input{
+    border-radius: 5px;
+}
+
+#count{
+    margin-top: 5px;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#unread_count{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
